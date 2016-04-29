@@ -4,7 +4,7 @@ PhyloCSf-PsiEmp is described in "Evolutionary dynamics of abundant stop codon re
 
 Computing PhyloCSf-PsiEmp for one or more regions of the AgamP3 Anopheles gambiae or dm3  Drosophila melanogaster genome assemblies requires extracting alignments, computing raw PhyloCSF scores, and computing PhyloCSf-PsiEmp from these.
 
-Alignments can be obtained using the “Fasta Out” option in CodAlignView after setting "Ancestor" to "None. CodAlignView is available here: http://www.broadinstitute.org/compbio1/cav.php.  Use Alignment Set “AgamP3” for 21 Anopheles genomes, “AgamP3_19” for 19 Anopheles genomes (all except the two most distantly-related Anopheles species, A. darlingi and A. albimanus), “dm3” for 12 Drosophila genomes, or “dm3_20” for 20 Drosophila genomes. The Drosophila alignments are also available from other sources.
+Alignments can be obtained using the “Fasta Out” option in CodAlignView after setting "Ancestor" to "None". CodAlignView is available here: http://www.broadinstitute.org/compbio1/cav.php.  Use Alignment Set “AgamP3” for 21 Anopheles genomes, “AgamP3_19” for 19 Anopheles genomes (all except the two most distantly-related Anopheles species, A. darlingi and A. albimanus), “dm3” for 12 Drosophila genomes, or “dm3_20” for 20 Drosophila genomes. The Drosophila alignments are also available from other sources.
 
 To compute raw PhyloCSF scores, download and install PhyloCSF as described here: https://github.com/mlin/PhyloCSF/wiki. Use the 12 flies, 20flies, or 21mosquitoes parameters as appropriate (the last can also be used for 21 or 19 mosquitoes).
 
